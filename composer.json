@@ -1,0 +1,31 @@
+{
+    "name": "cherif/yii2-specification-query",
+    "description": "Specification pattern for Yii2 Query",
+    "type": "lib",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Cherif BOUCHELAGHEM",
+            "email": "cherif.bouchelaghem@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": { "cherif\\specification\\": "lib/cherif/specification" }
+    },
+    "minimum-stability": "dev",
+    "require": {
+      "yiisoft/yii2": "^2.0.0",
+      "php": ">=5.4.0"
+    },
+    "require-dev": {
+      "phpspec/phpspec": "<=2.5.3",
+      "codeception/base": "^2.2.3",
+      "codeception/specify": "^0.4.3",
+      "codeception/verify": "^0.3.1",
+      "league/factory-muffin": "^3.0",
+      "league/factory-muffin-faker": "^1.0"
+    },
+    "config": {
+      "bin-dir": "bin"
+    }
+}

@@ -1,0 +1,8 @@
+suites:
+  cherif_specification:
+    namespace: cherif\specification
+    psr4_prefix: cherif\specification
+    src_path: %paths.config%/lib/cherif/specification
+    spec_path: %paths.config%/tests
+
+formatter.name: pretty
